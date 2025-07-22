@@ -1,5 +1,5 @@
 
-const apiKey = "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";
+const apiKey = import.meta.env.VITE_OPENROUTER_API_KEY;
 const chatBox = document.getElementById("chat-box");
 const chatForm = document.getElementById("chat-form");
 const userInput = document.getElementById("user-input");
